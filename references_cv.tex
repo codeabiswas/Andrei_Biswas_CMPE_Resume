@@ -1,0 +1,84 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Resume/CV
+% XeLaTeX Template
+% Version 1.2 (27/3/2017)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Claud D. Park (posquit0.bj@gmail.com) with modifications by 
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template must be compiled with XeLaTeX, the below lines will ensure this
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter --> default: a4paper
+
+\geometry{left=1cm, top=1cm, right=1cm, bottom=1cm,  footskip=0.5cm} % Configure page margins with geometry
+
+\fontdir[fonts/] % Specify the location of the included fonts
+
+% Color for highlights
+\colorlet{awesome}{awesome-emerald} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+%\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
+
+% Colors for text - uncomment and modify
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%----------------------------------------------------------------------------------------
+
+\name{Andrei}{Biswas} 
+\position{Musically Enthused Computer Engineer} % Your expertise/fields
+\address{00606 Nathaniel Rochester Hall, Rochester, NY 14623}
+\mobile{(+1) 857-928-7243} 
+\email{axb6972@rit.edu} 
+\linkedin{andreibiswas}
+
+%\github{posquit0}
+%\skype{skypeid}
+%\stackoverflow{SOid}{SOname}
+%\twitter{@twit}
+%\linkedin{linkedin name}
+%\reddit{reddit account}
+%\xing{xing name}
+%\extrainfo{test} % Other text you want to include on this line	
+
+
+%\quote{To apply the knowledge of Computer Engineering principles and gain valuable experience through co-op employment. Available January through August 2019.} % A quote or statement
+
+\makecvfooter{}{}{} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvheader % Print the header
+
+%----------------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%----------------------------------------------------------------------------------------
+
+\input{cv-sections/references.tex}
+
+\end{document}
